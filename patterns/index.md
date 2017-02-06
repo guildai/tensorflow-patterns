@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TensorFlow&trade; Patterns
+title: The Patterns
 description: A list of patterns for software development in TensorFlow.
 ---
 

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <title>{{site.title}}</title>
+  </head>
+  <body>
+
+    <header class="navbar navbar-light navbar-toggleable-md">
+      <nav class="container">
+        <div class="d-flex justify-content-between hidden-lg-up">
+          <a class="navbar-brand" href="/">TensorFlow Patterns</a>
+          <button
+             class="navbar-toggler"
+             type="button"
+             data-toggle="collapse"
+             data-target="#main-nav"
+             aria-controls="main-nav"
+             aria-expanded="false"
+             aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+          {% include navbar.html %}
+        </div>
+      </nav>
+    </header>
+
+    <div class="pageheader">
+      <div class="container">
+        <h1>{{page.title}}</h1>
+        <p class="lead">{{page.description}}</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          {{content}}
+        </div>
+      </div>
+    </div>
+
+    <footer class="bd-footer text-muted">
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="https://github.com/twbs/bootstrap">GitHub</a></li>
+          <li><a href="https://twitter.com/getbootstrap">Twitter</a></li>
+          <li><a href="/examples/">Examples</a></li>
+          <li><a href="/about/history/">About</a></li>
+        </ul>
+
+        <a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative
+        Commons License" style="border-width:0"
+        src="https://i.creativecommons.org/l/by/4.0/88x31.png"
+        /></a> <span style="position:relative;top:2px">This work is
+        licensed under a <a rel="license"
+        href="http://creativecommons.org/licenses/by/4.0/">Creative
+        Commons Attribution 4.0 International License</a>.</span>
+
+      </div>
+    </footer>
+
+
+    <script src="/assets/js/jquery-3.1.1.slim.min.js"></script>
+    <script src="/assets/js/tether.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
