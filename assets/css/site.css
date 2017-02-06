@@ -3,10 +3,14 @@
 }
 
 .pageheader {
-    background-color: #4d4d99;
+    background-color: #4CAF50;
     padding: 2rem 0;
     color: #fff;
     margin-bottom: 1rem;
+}
+
+.jumbotron {
+    background-color: #69F0AE;
 }
 
 footer {
@@ -28,6 +32,10 @@ footer {
 
 .footer-links li+li {
     margin-left: 1rem;
+}
+
+.footer-links a {
+    color: #666;
 }
 
 .license {

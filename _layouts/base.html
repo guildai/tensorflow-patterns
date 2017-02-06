@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+    <title>{{site.title}}</title>
+  </head>
+  <body>
+    <header class="navbar navbar-light navbar-toggleable-md">
+      <nav class="container">
+        <div class="d-flex justify-content-between hidden-lg-up">
+          <a class="navbar-brand" href="/">TensorFlow Patterns</a>
+          <button
+             class="navbar-toggler"
+             type="button"
+             data-toggle="collapse"
+             data-target="#main-nav"
+             aria-controls="main-nav"
+             aria-expanded="false"
+             aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+          {% include navbar.html %}
+        </div>
+      </nav>
+    </header>
+
+    {{content}}
+
+    <footer class="fixed-bottom">
+      <div class="container">
+        {% include footer-links.html %}
+        {% include creative-commons.html %}
+      </div>
+    </footer>
+
+    <script src="/assets/js/jquery-3.1.1.min.js"></script>
+    <script src="/assets/js/tether.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/github.commits.widget.js"></script>
+    <script>
+     $(function() {
+         $('#project-activity').githubInfoWidget({
+             user: 'guildai',
+             repo: 'tensorflow-patterns',
+             branch: 'master'
+         });
+     });
+    </script>
+
+  </body>
+</html>
