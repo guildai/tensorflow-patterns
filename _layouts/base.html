@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
     <link rel="stylesheet" href="/assets/css/site.css">
     <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
     <title>{{site.title}}</title>
@@ -43,14 +44,11 @@
     <script src="/assets/js/jquery-3.1.1.min.js"></script>
     <script src="/assets/js/tether.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/github.commits.widget.js"></script>
+    <script src="/assets/js/clipboard.min.js"></script>
+    <script src="/assets/js/site.js"></script>
     <script>
      $(function() {
-         $('#project-activity').githubInfoWidget({
-             user: 'guildai',
-             repo: 'tensorflow-patterns',
-             branch: 'master'
-         });
+         initHighlightCopy();
      });
     </script>
 

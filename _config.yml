@@ -5,7 +5,20 @@ baseurl: ""
 url: ""
 github_username: guildai
 markdown: kramdown
+collections:
+  - patterns
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: page
+  -
+    scope:
+      path: patterns
+    values:
+      layout: pattern

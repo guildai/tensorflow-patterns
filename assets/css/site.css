@@ -68,3 +68,32 @@ span.github-user img {
 a.github-commit {
     color: #77c;
 }
+
+pre.highlight {
+    background-color: #eee;
+    padding: 1rem 1rem;
+    border: 1px solid #ddd;
+}
+
+.btn-clipboard {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    z-index: 10;
+    display: block;
+    padding: .25rem .5rem;
+    font-size: 75%;
+    color: #818a91;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: .25rem;
+}
+
+.clipboard {
+    position: relative;
+}
+
+.btn-clipboard:hover {
+    color: #fff;
+    background-color: #0275d8;
+}
