@@ -11,12 +11,15 @@
 
 footer {
     margin-top: 4rem;
-    padding: 4rem 0 5rem;
+    padding: 3rem 0 3rem;
     background-color: #eee;
 }
 
 .footer-links {
     padding-left: 0;
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .footer-links li {
@@ -25,4 +28,35 @@ footer {
 
 .footer-links li+li {
     margin-left: 1rem;
+}
+
+.license {
+    line-height: 1.4;
+}
+
+ul.github-commits-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.github-commits-list li {
+    display: table;
+    margin-bottom: 0.5rem;
+}
+
+ul.github-commits-list li>* {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+span.github-user {
+    padding-right: 0.5rem;
+}
+
+span.github-user img {
+    border-radius: 15px;
+}
+
+a.github-commit {
+    color: #77c;
 }

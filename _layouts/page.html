@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
     <title>{{site.title}}</title>
   </head>
   <body>
@@ -39,36 +41,44 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 col-md-9">
           {{content}}
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="card">
+            <div class="card-header">Project Activity</div>
+            <div class="card-block">
+              <div id="project-activity"></div>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/guildai/tensorflow-patterns/commits/master"
+                 target="_blank">See all project commits</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <footer class="bd-footer text-muted">
+    <footer class="fixed-bottom">
       <div class="container">
-        <ul class="footer-links">
-          <li><a href="https://github.com/twbs/bootstrap">GitHub</a></li>
-          <li><a href="https://twitter.com/getbootstrap">Twitter</a></li>
-          <li><a href="/examples/">Examples</a></li>
-          <li><a href="/about/history/">About</a></li>
-        </ul>
-
-        <a rel="license"
-        href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative
-        Commons License" style="border-width:0"
-        src="https://i.creativecommons.org/l/by/4.0/88x31.png"
-        /></a> <span style="position:relative;top:2px">This work is
-        licensed under a <a rel="license"
-        href="http://creativecommons.org/licenses/by/4.0/">Creative
-        Commons Attribution 4.0 International License</a>.</span>
-
+        {% include footer-links.html %}
+        {% include creative-commons.html %}
       </div>
     </footer>
 
-
-    <script src="/assets/js/jquery-3.1.1.slim.min.js"></script>
+    <script src="/assets/js/jquery-3.1.1.min.js"></script>
     <script src="/assets/js/tether.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/github.commits.widget.js"></script>
+    <script>
+     $(function() {
+         $('#project-activity').githubInfoWidget({
+             user: 'guildai',
+             repo: 'tensorflow-patterns',
+             branch: 'master'
+         });
+     });
+    </script>
+
   </body>
 </html>
