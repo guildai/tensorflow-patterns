@@ -34,7 +34,7 @@
 
     {{content}}
 
-    <footer class="fixed-bottom">
+    <footer class="{% if page.fix_footer %}fixed-bottom{% endif %}">
       <div class="container">
         {% include footer-links.html %}
         {% include creative-commons.html %}

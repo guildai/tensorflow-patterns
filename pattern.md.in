@@ -1,0 +1,14 @@
+---
+title: <<pattern name>>
+scope: Code convention | Function | Tensor/Operation | Workflow
+summary: >
+
+    <<summary>>
+
+---
+
+## Example
+
+``` python
+print "TODO yo"
+```

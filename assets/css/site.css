@@ -2,13 +2,6 @@
     padding-left: 0;
 }
 
-.pageheader {
-    background-color: #43A047;
-    padding: 2rem 0;
-    color: #fff;
-    margin-bottom: 1rem;
-}
-
 .jumbotron {
     background-color: #43A047;
     color: #fff;
@@ -18,15 +11,17 @@
     color: #ccc !important;
 }
 
+.pageheader {
+    background-color: #43A047;
+    padding: 2rem 0;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
 footer {
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     padding: 3rem 0 3rem;
     background-color: #eee;
-
-    /* Set height to allow some pages to pad a known value at bottom
-    to accommodate dynamic content (e.g. patterns/index.md)
-    height: 220px;
-    */
 }
 
 .footer-links {
@@ -115,6 +110,7 @@ pre.highlight {
 .breadcrumb {
     background-color: inherit;
     padding: 0 0 0.75rem 0;
+    margin-top: -0.5rem;
 }
 
 #patterns-filter {
