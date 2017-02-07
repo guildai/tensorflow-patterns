@@ -10,7 +10,12 @@
 }
 
 .jumbotron {
-    background-color: #69F0AE;
+    background-color: #43A047;
+    color: #fff;
+}
+
+.jumbotron .text-muted {
+    color: #ccc !important;
 }
 
 footer {
@@ -19,8 +24,9 @@ footer {
     background-color: #eee;
 
     /* Set height to allow some pages to pad a known value at bottom
-    to accommodate dynamic content (e.g. patterns/index.md) */
+    to accommodate dynamic content (e.g. patterns/index.md)
     height: 220px;
+    */
 }
 
 .footer-links {
@@ -109,4 +115,12 @@ pre.highlight {
 .breadcrumb {
     background-color: inherit;
     padding: 0 0 0.75rem 0;
+}
+
+#patterns-filter {
+    max-width: 30rem;
+}
+
+#patterns-filter-status {
+    font-size: 0.9rem;
 }

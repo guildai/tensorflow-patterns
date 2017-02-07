@@ -1,4 +1,4 @@
-// This code is taken from https://v4-alpha.getbootstrap.com/assets/js/src/application.js
+// Modified from https://v4-alpha.getbootstrap.com/assets/js/src/application.js
 //
 initHighlightCopy = function() {
     $('.highlight').each(function () {
@@ -37,8 +37,54 @@ initHighlightCopy = function() {
     });
 };
 
+matchRow = function(row, terms) {
+    var rowText = row.text().toLowerCase();
+    for (var i = 0; i < terms.length; i++) {
+        if (rowText.indexOf(terms[i]) == -1) {
+            return false;
+        }
+    }
+    return true;
+};
+
 initPatternsTable = function() {
-    $("#patterns-table").DataTable({
-        "responsive": true
+    var input = $("#patterns-filter");
+    var table = $("#patterns-table");
+    var status = $("#patterns-filter-status");
+    input.keyup(function() {
+        var filter = input.val();
+        if (filter) {
+            filterPatternsTable(filter, table, status);
+        } else {
+            resetPatternsTable(table, status);
+        }
     });
+};
+
+filterPatternsTable = function(filter, table, status) {
+    var terms = filter.toLowerCase().split(/ +/);
+    var total = 0;
+    var visible = 0;
+    $("tbody tr", table).each(function() {
+        var row = $(this);
+        if (matchRow(row, terms)) {
+            row.show();
+            visible += 1;
+        } else {
+            row.hide();
+        }
+        total += 1;
+    });
+    if (visible > 0) {
+        status.text("Showing " + visible + " of " + total);
+    } else {
+        status.text("No matches");
+    }
+};
+
+resetPatternsTable = function(table, status) {
+    $("tbody tr", table).each(function() {
+        $(this).show();
+    });
+    status.text("");
 };
