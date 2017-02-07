@@ -3,20 +3,24 @@
 }
 
 .pageheader {
-    background-color: #4CAF50;
+    background-color: #43A047;
     padding: 2rem 0;
     color: #fff;
     margin-bottom: 1rem;
 }
 
 .jumbotron {
-    background-color: #B9F6CA;
+    background-color: #69F0AE;
 }
 
 footer {
     margin-top: 4rem;
     padding: 3rem 0 3rem;
     background-color: #eee;
+
+    /* Set height to allow some pages to pad a known value at bottom
+    to accommodate dynamic content (e.g. patterns/index.md) */
+    height: 220px;
 }
 
 .footer-links {
@@ -96,4 +100,13 @@ pre.highlight {
 .btn-clipboard:hover {
     color: #fff;
     background-color: #0275d8;
+}
+
+.dataTables_length select {
+    margin: 0 0.5rem;
+}
+
+.breadcrumb {
+    background-color: inherit;
+    padding: 0 0 0.75rem 0;
 }

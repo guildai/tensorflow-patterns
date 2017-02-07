@@ -1,7 +1,7 @@
 ---
 title: Flags
 scope: Code convention
-description: >
+summary: >
 
     Use a global FLAGS variable to let users list and redefine script
     parameters.

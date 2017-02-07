@@ -36,3 +36,9 @@ initHighlightCopy = function() {
             .tooltip('_fixTitle');
     });
 };
+
+initPatternsTable = function() {
+    $("#patterns-table").DataTable({
+        "responsive": true
+    });
+};
