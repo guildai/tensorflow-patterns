@@ -17,3 +17,9 @@ its benefit.>>
 ``` python
 <<text in this section should be valid Python source code>>
 ```
+
+## Notes
+
+<<Provide notes about the pattern. These may be informal, speculative,
+etc. It's common to list alternative names or approaches,
+counterpoints, etc. here.>>
