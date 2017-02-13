@@ -22,3 +22,8 @@ defaults:
       path: patterns
     values:
       layout: pattern
+  -
+    scope:
+      path: assets/pattern.md.in
+    values:
+      layout: null

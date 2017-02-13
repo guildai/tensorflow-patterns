@@ -6,6 +6,7 @@ summary: >
     Use a global FLAGS variable to let users list and redefine script
     parameters.
 
+popular: yes
 ---
 
 A global `FLAGS` variable may be used to define parameters used

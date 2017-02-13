@@ -10,3 +10,9 @@ summary: >
 ``` python
 print "TODO yo"
 ```
+
+## Notes
+
+Let's consider alternative names:
+
+- `save_model`

@@ -1,0 +1,15 @@
+<ul class="popular-patterns">
+  {% for page in site.pages %}
+  {% assign prefix = page.path|slice:0,9 %}
+  {% if prefix == 'patterns/' and page.name != 'index.md' %}
+  {% if page.popular %}
+  <li>
+    <h4><a href="{{page.url}}">{{page.title}}</a><br><small><a href="/scopes/#{{page.scope|slugify}}">{{page.scope}}</a></small></h4>
+    <p>{{page.summary}}</p>
+  </li>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<a href="/patterns/">More patterns</a>

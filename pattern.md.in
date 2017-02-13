@@ -7,8 +7,13 @@ summary: >
 
 ---
 
+<<Describe the pattern briefly. Include where it can be applied and
+its benefit.>>
+
 ## Example
 
+<<Provide examples if applicable>>
+
 ``` python
-print "TODO yo"
+<<text in this section should be valid Python source code>>
 ```

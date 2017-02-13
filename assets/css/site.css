@@ -1,3 +1,7 @@
+h2 {
+    margin: 1.5rem 0 1rem;
+}
+
 .nav-item:first-child a.nav-link {
     padding-left: 0;
 }
@@ -119,4 +123,38 @@ pre.highlight {
 
 #patterns-filter-status {
     font-size: 0.9rem;
+}
+
+ul.compact {
+    padding-left: 1.1rem;
+}
+
+ul.popular-patterns {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.popular-patterns h4 {
+    font-size: 1.2rem;
+}
+
+ul.popular-patterns h4 small a {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #777;
+}
+
+ul.popular-patterns li {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.pattern-scope a {
+    color: #ddd;
+    text-transform: uppercase;
+}
+
+.lead code {
+    background-color: inherit;
+    color: inherit;
 }
