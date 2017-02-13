@@ -8,7 +8,7 @@ summary: >
 ---
 
 <<Describe the pattern briefly. Include where it can be applied and
-its benefit.>>
+its benefit. Delete sections below that aren't used.>>
 
 ## Example
 
@@ -17,6 +17,17 @@ its benefit.>>
 ``` python
 <<text in this section should be valid Python source code>>
 ```
+
+## Anti-pattern <small>(avoid)</small>
+
+<<If helpful, provide examples of what not using the pattern may look
+like and highlight why the anti-pattern should be avoided.>>
+
+## Related patterns
+
+<<If applicable, list related patterns>>
+
+- [Pattern name](/patterns/link-to-pattern.html)
 
 ## Notes
 

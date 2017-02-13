@@ -33,7 +33,7 @@ a [TF saver](https://www.tensorflow.org/versions/r1.0/api_docs/python/state_ops/
 
 ## Example
 
-When building a model graph, include `input` and `output` tensors that
+When building a model graph, include `input` and `output` tendors that
 specify maps between external facing names and graph tensors.
 
 For this example, we implement these steps in a function named

@@ -16,13 +16,15 @@ the name only adds noise to the operation.
 
 ## Example
 
-This is preferred:
-
 ``` python
 sess.run(ops, inputs)
 ```
 
-Avoid this:
+## Anti-pattern <small>(avoid)</small>
+
+The second argument is commonly named. Given the centrality of
+providing data to an operation, the name serves little value -- and
+arguably is just noise.
 
 ``` python
 sess.run(ops, feed_dict=inputs)

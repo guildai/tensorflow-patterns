@@ -36,6 +36,10 @@ def log_model_status(step, data, writer, name):
     print "Step %i: %s=%f" % (step, name, accuracy_val)
 ```
 
+## Related patterns
+
+- [Evaluate function](/patterns/evaluate-function.html)
+
 ## Notes
 
 Alternative function names:

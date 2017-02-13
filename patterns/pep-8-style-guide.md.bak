@@ -18,11 +18,11 @@ Some notable standards:
 - Limit lines to 79 characters or less
 - Use four spaces for each level of indentation
 
-There's quite a bit more in the guide that may apply to your project!
+There's quite a bit more in the guide thay may apply to your project!
 
-Style guides can be debated endlessly, but consideration of style is
+Style guides can be debated enlessly, but consideration of style is
 useful if it improves the readability and maintainability of source
-code. This pattern advocates for a consistent style guide to
+code. This pattern advocates for a consistent style guilde to
 encourage collaboration across TensorFlow projects by multiple
 independent contributors.
 

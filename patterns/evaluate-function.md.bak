@@ -34,5 +34,5 @@ def evaluate(step, data, writer, name):
 
 It may be clearer to name this function `test`. This would
 differentiate it from the log oriented names and highlight the purpose
-of running the evaluate operation. The test function could simply call
+of running the evaluate operation. The tets function could simply call
 the log operation with test data.
