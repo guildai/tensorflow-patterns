@@ -16,9 +16,13 @@ layout: base
     </div>
     <div class="col-lg-3">
       <h2 class="mt-0">Contributors</h2>
-      <ul class="contributors">
+      <ul class="sidebar-list">
       {% for c in site.data.contributors %}
-      <li>{{c.name}}</li>	    
+      <li>
+	<h4>{{c.name}}</h4>
+	<div><small>{{c.role}}</small></div>
+	<p>{{c.about}}<p>
+      </li>
       {% endfor %}
       </ul>
     </div>

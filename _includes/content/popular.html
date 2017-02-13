@@ -1,10 +1,11 @@
-<ul class="popular-patterns">
+<ul class="sidebar-list">
   {% for page in site.pages %}
   {% assign prefix = page.path|slice:0,9 %}
   {% if prefix == 'patterns/' and page.name != 'index.md' %}
   {% if page.popular %}
   <li>
-    <h4><a href="{{page.url}}">{{page.title}}</a><br><small><a href="/scopes/#{{page.scope|slugify}}">{{page.scope}}</a></small></h4>
+    <h4><a href="{{page.url}}">{{page.title}}</a></h4>
+    <div><small><a href="/scopes/#{{page.scope|slugify}}">{{page.scope}}</a></small></div>
     <p>{{page.summary}}</p>
   </li>
   {% endif %}
@@ -12,4 +13,4 @@
   {% endfor %}
 </ul>
 
-<a href="/patterns/">More patterns</a>
+<div class="sidebar-list-more"><a href="/patterns/">More patterns</a></div>

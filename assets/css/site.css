@@ -129,24 +129,35 @@ ul.compact {
     padding-left: 1.1rem;
 }
 
-ul.popular-patterns {
+ul.sidebar-list {
     list-style: none;
     padding-left: 0;
 }
 
-ul.popular-patterns h4 {
+ul.sidebar-list h4 {
     font-size: 1.2rem;
+    margin-bottom: 0;
 }
 
-ul.popular-patterns h4 small a {
+ul.sidebar-list small,
+ul.sidebar-list small a {
     font-size: 0.8rem;
     text-transform: uppercase;
     color: #777;
 }
 
-ul.popular-patterns li {
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 1rem;
+ul.sidebar-list li {
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+ul.sidebar-list li:first-child {
+    border-top: none;
+}
+
+.sidebar-list-more {
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
 }
 
 .pattern-scope a {

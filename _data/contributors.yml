@@ -1,5 +1,4 @@
 - name: Garrett Smith
-  blurb: Founder of Guild AI
+  about: Founder of Guild AI
   email: g@rre.tt
-  maintainer: yes
-  
+  role: Administrator
