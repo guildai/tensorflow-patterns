@@ -7,6 +7,20 @@ specifics to the project methodology/contribution guide.
 
 - Procedure on spell checking
 - Procedure on how to work with the template
+  - Follow section order
+  - When to include various sections
+
+## Misc TODO
+
+- Find a repeatable pattern as the banner - ala TensorHub's tag
+  backgrounds.
+
+## Problems
+
+The name "loss variable" is not what we want I think. This should
+probably by either loss operation or loss tensor. In this case we mean
+Python variable, but this conflicts with TF variables. Loss is
+certainly not a TF variable.
 
 ## Pattern ideas
 

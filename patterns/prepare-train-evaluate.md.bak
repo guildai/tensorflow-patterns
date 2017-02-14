@@ -24,7 +24,7 @@ The `evaluate` operation measures and reports model performance on a
 partially or fully trained model.
 
 It's useful to separate the *prepare* operation as it is typically
-performed once, independently of a *train* operation. The prepare
+performed once, independently of a *train* operation. The perpare
 operation may accept user defined parameters that change the way the
 data is prepared. This is similar to the *configure* step when
 compiling software with autoconf tools.

@@ -11,7 +11,7 @@ summary: >
 A `train` function should be a simple loop that iteratively runs a
 *train operation* with batches of data. During training, the function
 should
-occasionally
+occassionally
 [log the model status](/patterns/log-model-status-function.html)
 (e.g. write summaries and update the user with the latest training and
 validation accuracies) and [save the model](save-model-function.html)

@@ -1,17 +1,22 @@
-personal_ws-1.1 en 41 
+personal_ws-1.1 en 51 
 eval
+iteratively
 rundir
 Keras
+accuracies
 tmp
 monadic
 mb
 tbody
 argparse
+autoconf
 md
+TensorHub's
 html
 de
 facto
 MNIST
+TensorFlow's
 datadir
 args
 arg
@@ -21,6 +26,7 @@ endif
 ArgumentParser
 Workflow
 href
+dest
 runtime
 NameError
 parameterized
@@ -30,13 +36,17 @@ TFLearn
 globals
 dicts
 preprocessing
+ala
 json
 datasets
 td
 GitHub
+py
 tf
 sess
 thead
 th
 endfor
+parameterize
 url
+elif

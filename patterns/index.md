@@ -31,9 +31,9 @@ description: A list of patterns for software development in TensorFlow.
         {% assign prefix = page.path|slice:0,9 %}
         {% if prefix == 'patterns/' and page.name != 'index.md' %}
         <tr>
-          <td><a href="{{page.url}}">{{page.title}}</a></td>
-          <td>{{page.scope}}</td>
-          <td>{{page.summary}}</td>
+          <td class="pattern-list-name"><a href="{{page.url}}">{{page.title}}</a></td>
+          <td class="pattern-list-scope"><a href="{{page.scope|slugify}}">{{page.scope}}</a></td>
+          <td class="pattern-list-summary">{{page.summary}}</td>
         </tr>
         {% endif %}
         {% endfor %}

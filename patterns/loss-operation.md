@@ -1,10 +1,10 @@
 ---
-title: Loss variable
+title: Loss operation
 scope: Tensor/Operation
 summary: >
 
-    Use the variable <code>loss</code> to represent the loss being
-    minimized in a training operation.
+    Use a TensorFlow operation <code>loss</code> to represent the loss
+    being minimized in a training operation.
 
 ---
 

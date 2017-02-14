@@ -176,3 +176,8 @@ ul.sidebar-list li:first-child {
     background-color: inherit;
     color: inherit;
 }
+
+.pattern-list-name {
+    font-weight: 600;
+    min-width: 15rem;
+}

@@ -3,7 +3,7 @@ title: Summaries operation
 scope: Tensor/Operation
 summary: >
 
-    Use TensorFlow event writers and summary operations to log
+    Use TensorFlow event writters and summary operations to log
     training progress and other details useful to understanding the
     training operation.
 
@@ -42,7 +42,7 @@ def evaluate(step, data):
 Note that we use the globally defined `writer` in this example ---
 this is a matter of design. In some cases a script might use multiple
 summary writers (e.g. one for training summaries and another for
-validation) in which case the specific writer should be specified in
+validation) in which case the specific writier should be specified in
 the call to `evaluate`.
 
 ## Related patterns
