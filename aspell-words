@@ -1,10 +1,11 @@
-personal_ws-1.1 en 51 
+personal_ws-1.1 en 53 
 eval
 iteratively
 rundir
 Keras
 accuracies
 tmp
+repl
 monadic
 mb
 tbody
@@ -12,6 +13,7 @@ argparse
 autoconf
 md
 TensorHub's
+slugify
 html
 de
 facto
