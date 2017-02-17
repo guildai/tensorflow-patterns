@@ -10,10 +10,18 @@ specifics to the project methodology/contribution guide.
   - Follow section order
   - When to include various sections
 
+Update: Include content from Santa Clara presentation.
+
 ## Misc TODO
 
-- Find a repeatable pattern as the banner - ala TensorHub's tag
+- Find a repeatable pattern image as the banner - ala TensorHub's tag
   backgrounds.
+
+- Add 'likes' and 'dislikes' metadata, which is a space separated list
+  of user names - this is used for up voting and down voting. It's
+  tempting to add tags, but I this voting scheme can highlight
+  controversial patterns (many dislikes), best practices (many likes),
+  and TensorFlow Team Endorsed (likes by specific users).
 
 ## Problems
 
